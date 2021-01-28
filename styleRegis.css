@@ -1,0 +1,66 @@
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.regisArea {
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	border-bottom-style: outset;
+	align-items: center;
+	position: relative;
+}
+
+.regisArea h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 60px;
+	font-size: 30px;
+}
+
+.regisArea input {
+	margin-top: 10px;
+	width: 200px;
+	height: 25px;
+	border-radius: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	padding: 7px;
+}
+
+#check {
+	position: absolute;
+	right: 520px;
+	bottom: 132px;
+}
+
+button {
+	margin-top: 30px;
+	width: 85px;
+	height: 35px;
+	border-radius: 3px;
+	background-color: rgb(103, 0, 221);
+	color: white;
+}
+
+button:hover {
+	color: rgb(187, 187, 187);
+	transition: 0.2s;
+}
+
+.listArea {
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	align-items: center;
+}
+
+.listArea h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+.display {
+	align-self: flex-start;
+	font-family: Arial, Helvetica, sans-serif;
+}

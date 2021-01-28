@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            h3 {
+                margin: 0;
+                padding: 0;
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+                margin-bottom: 10px;
+            }
+
+            .soal1,
+            .soal2,
+            .soal3,
+            .soal4 {
+                border-bottom-style: outset;
+                padding: 30px;
+            }
+
+            nav {
+                margin: 0;
+                background-color: rgb(94, 94, 94);
+                padding: 10px;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin-left: 20px;
+            }
+
+            nav a:hover {
+                color: tomato;
+                transition: 0.2s;
+            }
+    </style>
+
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Soal 1-4</a>
+        <a href="tweet.html" target="_blank">Soal Nomor 5</a>
+        <a href="regis.html" target="_blank">Soal Nomor 6</a>
+    </nav>
+
+
+    <!-- Soal nomor 1 -->
+    <div class="soal1">
+        <h3>Soal nomor 1</h3>
+        <p>Pekerjaan di bidang IT</p>
+            <div id="itemList">
+            </div>
+    </div>
+
+    <!-- Soal nomor 2 -->
+    <div class="soal2">
+        <h3>Soal nomor 2</h3>
+        <p>Membagi tim dengan array</p>
+            <div id="tim1"></div>
+            <div id="tim2"></div>
+    </div>  
+
+    <!-- Soal nomor 3 -->
+    <div class="soal3">
+        <h3>Soal nomor 3</h3>
+        <p>Mengalikan value di dalam array</p>
+            <div id="deretAwal"></div>
+            <div id="deretHasil"></div>
+    </div>
+
+    <!-- Soal nomor 4 -->
+    <div class="soal4">
+        <h3>Soal nomor 4</h3>
+        <p>Membandingkan nilai 2 array yang berbeda</p>
+            <strong><div id="banding"></div></strong>
+            <div id="keterangan"></div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
